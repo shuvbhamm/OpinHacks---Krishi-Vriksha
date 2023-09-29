@@ -24,7 +24,7 @@ button{
         font-family: 'Poppins', sans-serif;
 }
 html{
-    font-size: 18px ;
+    font-size: 16px ;
 }
 h1{
     font-size: 2rem;
@@ -134,6 +134,7 @@ header{
     align-items: center;
     position: relative;
     flex-direction: column;
+    overflow: hidden;
     .title{
         padding-bottom: 10px;
         margin-bottom: 20px;
@@ -141,7 +142,7 @@ header{
     }
 }
 .services .serviceOpt{
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,10 +154,12 @@ header{
     padding-bottom: 15px;
 }
 .serviceOpt img{
-    transform: scale(.8);
+    height: 250px;
+    margin: 20px;
 }
 .services{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     gap: 100px;
 }
