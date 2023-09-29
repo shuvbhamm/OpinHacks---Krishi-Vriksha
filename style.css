@@ -152,6 +152,9 @@ header{
 .serviceOpt h2{
     padding-bottom: 15px;
 }
+.serviceOpt img{
+    transform: scale(.8);
+}
 .services{
     display: flex;
     justify-content:space-around;
