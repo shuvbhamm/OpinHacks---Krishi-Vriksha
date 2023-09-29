@@ -11,7 +11,9 @@
         <div class="headerlogo">
             <img src="./images/logo.png" alt="" height="60px">
         </div>
-        <div class="selectLamguage">Select Language here</div>
+        <div class="selectLamguage">
+            <div id="google_translate_element"></div>
+        </div>
         <div class="LoginBtns">
             <button>BUY / SELL</button>
             <img src="./images/profile icon.png" alt="" height="40">
@@ -24,6 +26,19 @@
             </h1>
             <button>EXPLORE THE MARKETPLACE</button>
         </div>
+        <div class="farmerBullock">
+
+        </div>
     </section>
+
+
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
 </body>
 </html>

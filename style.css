@@ -25,6 +25,7 @@ h1{
     font-size: 2rem;
 }
 header{
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
@@ -65,10 +66,12 @@ header{
     background-position: top center;
     background-repeat: no-repeat;
     background-color: blue;
+    overflow: hidden;
 }
 .heroSection{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .HeroCTA{
     display: flex;
@@ -84,4 +87,22 @@ header{
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: 400;
+}
+.farmerBullock{
+    height: 100px;
+    width: 250px;
+    background-image: url("./images/BULLOCK.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 82.5%;
+    animation: ghodagaadi 20s linear infinite;
+}
+@keyframes ghodagaadi{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -20%;
+    }
 }
