@@ -6,7 +6,6 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-family: 'Oswald', sans-serif;
-    /* font-family: 'Oswald', sans-serif; */
     border: none;
 }
 ::-webkit-scrollbar{
@@ -14,6 +13,12 @@
 }
 a{
     text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald';
+}
+p{
+    font-family: 'Poppins';
 }
 button{
         font-family: 'Poppins', sans-serif;
@@ -23,6 +28,18 @@ html{
 }
 h1{
     font-size: 2rem;
+}
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+    height: 35px;
+    overflow: hidden;
+}
+.goog-te-gadget .goog-te-combo {
+    padding: 5px;
+    border-radius: 5px;
 }
 header{
     z-index: 1000;
@@ -60,13 +77,16 @@ header{
     align-items: center;
 }
 .heroSection{
-    background-image: url("./images/HOMEPAGE\ IMAGE.jpg");
     height: 130vh;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color: blue;
+    background-color: white;
     overflow: hidden;
+    position: relative;
+}
+.homepage_video{
+    position: absolute;
+    height: 105%;
+    width: 100%;
+    z-index: 49;
 }
 .heroSection{
     display: flex;
@@ -81,6 +101,7 @@ header{
     position: relative;
     top: 25%;
     transform: scale(1.1);
+    z-index: 50;
 }
 .HeroCTA h1{
     text-align: center;
@@ -106,3 +127,5 @@ header{
         left: -20%;
     }
 }
+
+
