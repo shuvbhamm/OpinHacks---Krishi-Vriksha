@@ -127,5 +127,44 @@ header{
         left: -20%;
     }
 }
-
-
+.OurServices{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    .title{
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-bottom: 5px solid #d26823 ;
+    }
+}
+.services .serviceOpt{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.serviceOpt h2{
+    padding-bottom: 15px;
+}
+.services{
+    display: flex;
+    justify-content:space-around;
+    gap: 100px;
+}
+.left-polygon,.right-polygon{
+    position: absolute;
+}
+.left-polygon{
+    left: 0;
+    top: 15%;
+}
+.right-polygon{
+    right: 0;
+    top: 15%;
+}
