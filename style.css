@@ -178,3 +178,27 @@ header{
     right: 0;
     top: 15%;
 }
+.About{
+    min-height: 500px;
+    width: 100vw;
+    border-top: 7px solid #d26823;
+    border-bottom: 7px solid #d26823;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.About .imageSection{
+    height: 100%;
+}
+.About .imageSection img{
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.About .ContentSection{
+    width: 500px;
+    position: absolute;
+    right: 20%;
+}
