@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    border: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+button{
+        font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 18px ;
+}
+h1{
+    font-size: 2rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top:0;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 10vh;
+}
+.headerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LoginBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+ button{
+    padding: 10px 30px;
+    background-color: #2d0a06;
+    color: white;
+    font-size: 1rem;
+}
+.selectLamguage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroSection{
+    background-image: url("./images/HOMEPAGE\ IMAGE.jpg");
+    height: 130vh;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: blue;
+}
+.heroSection{
+    display: flex;
+    justify-content: center;
+}
+.HeroCTA{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+}
+.HeroCTA h1{
+    text-align: center;
+    font-size: 3rem;
+}
