@@ -156,6 +156,10 @@ header{
 .serviceOpt img{
     height: 250px;
     margin: 20px;
+    transition: 500ms linear;
+}
+.serviceOpt img:hover{
+    transform: rotateY(360deg);
 }
 .services{
     display: flex;
