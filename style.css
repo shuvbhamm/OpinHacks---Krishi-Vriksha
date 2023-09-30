@@ -95,8 +95,8 @@ header{
     justify-content: center;
     position: relative;
     background-image: url("/images/krishi\ vriksha\ hero\ image\ 1.jpg");
-    background-position: top center;
-    background-size: 100%;
+    background-position: bottom center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .HeroCTA{
@@ -539,4 +539,32 @@ li{
     color: red;
     font-weight: bold;
 
+}
+.educationalVideo{
+    min-height: 100vh;
+    background: #f2f2f2;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title{
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-bottom: 5px solid #d26823 ;
+    }
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .video{
+        height: 200px;
+        width: 300px;
+        aspect-ratio: 16/9;
+        background: #000;
+    }
 }
