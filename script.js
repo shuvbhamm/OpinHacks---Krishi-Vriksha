@@ -47,11 +47,11 @@ fetch(apiUrl, { method: 'GET', headers: headers })
                 <div class="price">
                     <div class="max">
                         <p class="maxPrice">MAX PRICE</p>
-                        <p>${record.max_price}INR</p>
+                        <p>${record.max_price} INR</p>
                     </div>
                     <div class="min">
                         <p class="maxPrice">MIN PRICE</p>
-                        <p>${record.min_price}INR</p>
+                        <p>${record.min_price} INR</p>
                     </div>
                 </div>
             </div>
@@ -101,6 +101,7 @@ fetch(apiUrl, { method: 'GET', headers: headers })
                 </div>
             </div>
         </div>
+        <br>
     `;
 
             // Insert the generated HTML into the <div id="highest"> element
