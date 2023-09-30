@@ -88,16 +88,15 @@ header{
     overflow: hidden;
     position: relative;
 }
-.homepage_video{
-    position: absolute;
-    height: 105%;
-    width: 100%;
-    z-index: 49;
-}
+
 .heroSection{
     display: flex;
     justify-content: center;
     position: relative;
+    background-image: url("/images/krishi\ vriksha\ hero\ image\ 1.jpg");
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .HeroCTA{
     display: flex;
