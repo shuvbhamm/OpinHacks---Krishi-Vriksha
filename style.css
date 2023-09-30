@@ -233,7 +233,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #d2d2;
+    background: #f2f2f2;
 }
 .todaysData{
     width: 330px;
@@ -273,4 +273,27 @@ li{
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+.contactus{
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.contactus .imageSect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.formSect form{
+    display: flex;
+    flex-direction: column;
+    background-color: #6c4949;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formSect form input,.formSect form textarea{
+    border-radius: 5px;
+    padding: 5px;
 }

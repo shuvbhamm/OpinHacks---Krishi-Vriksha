@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krishi Vriksha</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/krishi vriksha logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -58,48 +59,75 @@
     </section>
 
     <section class="marketPrice">
-        <div class="todaysData">
-            <h2 align="center">Live Market Price</h2>
-            <div class="container">
-                <p>Today's Highest Commodity</p>
-                <div class="commodityPrice">
-                    <div class="ItemCity">
-                        <div class="item">Cauliflower</div>
-                        <div class="city">Bhilai</div>
-                    </div>
-                    <div class="price">
-                        <div class="max">
-                            <p class="maxPrice">MAX PRICE</p>
-                            <p>200 INR</p>
+        <div id="low-and-high-commodity">
+            <div class="todaysData">
+                <h2 align="center">Live Market Price</h2>
+                <div class="container">
+                    <div id="highest">
+                        <!-- <div class="highest">
+                        <p>Today's Highest Commodity</p>
+                        <div class="commodityPrice">
+                            <div class="ItemCity">
+                                <div class="item">Cauliflower</div>
+                                <div class="city">Bhilai</div>
+                            </div>
+                            <div class="price">
+                                <div class="max">
+                                    <p class="maxPrice">MAX PRICE</p>
+                                    <p>200 INR</p>
+                                </div>
+                                <div class="min">
+                                    <p class="maxPrice">MIN PRICE</p>
+                                    <p>185 INR</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="min">
-                            <p class="maxPrice">MIN PRICE</p>
-                            <p>185 INR</p>
-                        </div>
+                    </div> -->
                     </div>
-                </div>
-                <br>
-                <p>Today's Highest Commodity</p>
-                <div class="commodityPrice">
-                    <div class="ItemCity">
-                        <div class="item">Cauliflower</div>
-                        <div class="city">Bhilai</div>
-                    </div>
-                    <div class="price">
-                        <div class="max">
-                            <p class="maxPrice">MAX PRICE</p>
-                            <p>200 INR</p>
+                    <div id="lowest">
+                        <!-- <div class="highest">
+                        <p>Today's Highest Commodity</p>
+                        <div class="commodityPrice">
+                            <div class="ItemCity">
+                                <div class="item">Cauliflower</div>
+                                <div class="city">Bhilai</div>
+                            </div>
+                            <div class="price">
+                                <div class="max">
+                                    <p class="maxPrice">MAX PRICE</p>
+                                    <p>200 INR</p>
+                                </div>
+                                <div class="min">
+                                    <p class="maxPrice">MIN PRICE</p>
+                                    <p>185 INR</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="min">
-                            <p class="maxPrice">MIN PRICE</p>
-                            <p>185 INR</p>
-                        </div>
+                    </div> -->
                     </div>
+                    <!-- <br>
+                    <p>Today's Highest Commodity</p>
+                    <div class="commodityPrice">
+                        <div class="ItemCity">
+                            <div class="item">Cauliflower</div>
+                            <div class="city">Bhilai</div>
+                        </div>
+                        <div class="price">
+                            <div class="max">
+                                <p class="maxPrice">MAX PRICE</p>
+                                <p>200 INR</p>
+                            </div>
+                            <div class="min">
+                                <p class="maxPrice">MIN PRICE</p>
+                                <p>185 INR</p>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-        <div class="LiveData">
-            <div class="commodityPrice">
+        <div class="LiveData" id="LiveData">
+            <!-- <div class="commodityPrice">
                 <div class="ItemCity">
                     <div class="item">Cauliflower</div>
                     <div class="city">Bhilai</div>
@@ -114,121 +142,9 @@
                         <p>185 INR</p>
                     </div>
                 </div>
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-            </div>
-            <div class="commodityPrice">
-                <div class="ItemCity">
-                    <div class="item">Cauliflower</div>
-                    <div class="city">Bhilai</div>
-                </div>
-                <div class="price">
-                    <div class="max">
-                        <p class="maxPrice">MAX PRICE</p>
-                        <p>200 INR</p>
-                    </div>
-                    <div class="min">
-                        <p class="maxPrice">MIN PRICE</p>
-                        <p>185 INR</p>
-                    </div>
-                </div>
-            </div>
-            
+            </div> -->
+
+
         </div>
     </section>
 
@@ -250,12 +166,29 @@
         </div>
     </section>
 
+    <section class="contactus">
+        <div class="imageSect">
+            <img src="./images/contact us.png" alt="" height="350">
+        </div>
+        <div class="formSect">
+            <h2>Contact Us</h2>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Enter Name"><br>
+                <input type="email" name="" id="" placeholder="Enter Email"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <br>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+    </section>
+
     <script type="text/javascript">
         function googleTranslateElementInit() {
           new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    
+
+    <script src="/script.js"></script>
 </body>
 </html>
