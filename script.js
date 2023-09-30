@@ -3,6 +3,7 @@
 $(document).ready(function () {
     var selectStateVal = 'Bihar';
     changeData(selectStateVal);
+    $("#HighPrice").hide();
 });
 const indianStates = [
 
@@ -85,12 +86,11 @@ function changeData(selectStateVal) {
                 newsHtml += data;
 
                 // Check if the current record has max_price >= 1000 and set the "HighPrice" element's display accordingly
-                if (record.max_price >= 1500) {
+                if (record.max_price >= record.modal_price) {
                     $("#HighPrice").text(record.commodity + " Prices Are too High").show();
-
                 } else {
                     $("#HighPrice").hide();
-
+                   
                 }
             });
 
@@ -118,7 +118,7 @@ function changeData(selectStateVal) {
             if (highestPriceRecord) {
                 let highestPriceHtml = `
         <div class="highest">
-       
+        <p id="HighPrice">> ${highestPriceRecord.commodity} Price is Too High </p><br>
             <p>Today's Highest Commodity</p>
             <div class="commodityPrice">
                 <div class="ItemCity">
@@ -129,6 +129,10 @@ function changeData(selectStateVal) {
                     <div class="max">
                         <p class="maxPrice">MAX PRICE</p>
                         <p>${highestPriceRecord.max_price} INR</p>
+                    </div>
+                    <div class="avg">
+                        <p class="avgPrice">AVG PRICE</p>
+                        <p>${highestPriceRecord.modal_price} INR</p>
                     </div>
                     <div class="min">
                         <p class="maxPrice">MIN PRICE</p>
@@ -171,6 +175,10 @@ function changeData(selectStateVal) {
                             <div class="max">
                                 <p class="maxPrice">MAX PRICE</p>
                                 <p>${lowestPriceRecord.max_price} INR</p>
+                            </div>
+                            <div class="avg">
+                               <p class="avgPrice">AVG PRICE</p>
+                               <p>${lowestPriceRecord.modal_price} INR</p>
                             </div>
                             <div class="min">
                                 <p class="maxPrice">MIN PRICE</p>

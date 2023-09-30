@@ -283,7 +283,7 @@ li{
     background-repeat: no-repeat;
     background-position: center;
 }
-.max,.min{
+.max,.min,.avg{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -294,7 +294,7 @@ li{
 .min{
     color: rgb(207, 49, 49);
 }
-.maxPrice,.minPrice{
+.maxPrice,.minPrice,.avgPrice{
     font-size: .7rem;
 }
 .LiveData{
@@ -534,4 +534,9 @@ li{
     background-color: white;
     padding: 10px 20px;
     border-radius: 10px;
+}
+#HighPrice {
+    color: red;
+    font-weight: bold;
+
 }
