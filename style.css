@@ -155,10 +155,10 @@ header{
 .serviceOpt img{
     height: 250px;
     margin: 20px;
-    transition: 500ms linear;
+    transition: 200ms linear;
 }
 .serviceOpt img:hover{
-    transform: rotateY(360deg);
+    transform: rotate(45deg);
 }
 .services{
     display: flex;
@@ -227,4 +227,50 @@ li{
     position: absolute;
     top: 0;
     right: 0;
+}
+.marketPrice{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d2d2;
+}
+.todaysData{
+    width: 330px;
+}
+.todaysData .container{
+    height: 300px;
+    width: 300px;
+    border: 5px solid #6BA53E;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.commodityPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background-color: #6BA53E;
+    padding: 10px;
+    border-radius: 5px;
+}
+.max,.min{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.maxPrice,.minPrice{
+    font-size: .7rem;
+}
+.LiveData{
+    max-width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
