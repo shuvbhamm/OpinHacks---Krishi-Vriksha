@@ -240,9 +240,10 @@ li{
     justify-content: center;
     align-items: center;
     background: #f2f2f2;
+    position: relative;
 }
 .todaysData{
-    width: 330px;
+    width: 360px;
 }
 .todaysData .container{
     height: 350px;
@@ -521,4 +522,15 @@ li{
    p.ending-quote {
     text-align: center;
     color: white;margin-top: 12px;
+}
+
+.SelectState{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
