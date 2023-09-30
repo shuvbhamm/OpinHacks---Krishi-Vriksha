@@ -136,7 +136,7 @@ function changeData(selectStateVal) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br>
     `;
                 // Insert the generated HTML into the <div id="highest"> element
                 const highestElement = document.getElementById("highest");
