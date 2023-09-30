@@ -567,4 +567,36 @@ li{
         aspect-ratio: 16/9;
         background: #000;
     }
+
+}
+
+.section-cell {
+    padding: 200px;
+}
+
+.options {
+    /* margin: 0 auto; */
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border: 2px solid black;
+    width: 290px;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 10px auto;
+
+
+}
+
+.option:hover {
+    scale: 0.98;
 }
