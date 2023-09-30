@@ -42,7 +42,7 @@ fetch(apiUrl, { method: 'GET', headers: headers })
      <div class="commodityPrice">
                 <div class="ItemCity">
                     <div class="item">${record.commodity}</div>
-                    <div class="city">${record.state}</div>
+                    <div class="city">${record.state} (${record.market})</div>
                 </div>
                 <div class="price">
                     <div class="max">
@@ -87,7 +87,7 @@ fetch(apiUrl, { method: 'GET', headers: headers })
             <div class="commodityPrice">
                 <div class="ItemCity">
                     <div class="item">${highestPriceRecord.commodity}</div>
-                    <div class="city">${highestPriceRecord.state}</div>
+                    <div class="city">${highestPriceRecord.state} (${highestPriceRecord.market})</div>
                 </div>
                 <div class="price">
                     <div class="max">
@@ -130,7 +130,7 @@ if (lowestPriceRecord) {
             <div class="commodityPrice">
                 <div class="ItemCity">
                     <div class="item">${lowestPriceRecord.commodity}</div>
-                    <div class="city">${lowestPriceRecord.state}</div>
+                    <div class="city">${lowestPriceRecord.state} (${lowestPriceRecord.market})</div>
                 </div>
                 <div class="price">
                     <div class="max">
