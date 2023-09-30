@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Oswald', sans-serif;
     border: none;
 }
 ::-webkit-scrollbar{
@@ -200,5 +199,32 @@ header{
 .About .ContentSection{
     width: 500px;
     position: absolute;
-    right: 20%;
+    right: 15%;
+}
+.About .ContentSection button{
+    background: #d26823;
+}
+.About .ContentSection h1{
+    margin-bottom: 20px;
+}
+li{
+    list-style: none;
+}
+.ContentSection ul li{
+    margin: 10px 0;
+}
+.ContentSection ul li::before{
+    content: " 55";
+    color: rgba(0,0,0,0);
+    height: 30px;width: 30px;
+    margin-right: 10px;
+    background: url("./images/leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.design1{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
