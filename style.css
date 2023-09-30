@@ -253,21 +253,43 @@ li{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    color: white;
-    background-color: #6BA53E;
+    color: black;
+    background-color: #6ba53e7a;
     padding: 10px;
     border-radius: 5px;
+}
+.commodityPrice .item{
+    font-weight: 900;
+}
+.commodityPrice .city{
+    font-size: .8rem;
+}
+.commodityPrice .city::before{
+    content: "-.";
+    color: rgba(0,0,0,0);
+    height: 10px;width: 10px;
+    margin-right: 5px;
+    background-image: url("./images/location-pin.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .max,.min{
     display: flex;
     gap: 10px;
     align-items: center;
 }
+.max{
+    color: rgb(14, 117, 14);
+}
+.min{
+    color: rgb(207, 49, 49);
+}
 .maxPrice,.minPrice{
     font-size: .7rem;
 }
 .LiveData{
-    max-width: 40%;
+    max-width: 50%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
