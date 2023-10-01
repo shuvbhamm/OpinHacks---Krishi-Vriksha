@@ -1,5 +1,5 @@
 
-
+// API CAll
 $(document).ready(function () {
     var selectStateVal = 'Bihar';
     changeData(selectStateVal);
