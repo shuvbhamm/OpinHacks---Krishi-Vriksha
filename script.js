@@ -56,7 +56,7 @@ function changeData(selectStateVal) {
     let format = 'json'
     let state = selectStateVal;
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', `https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=${apiKey}&format=${format}&filters%5Bstate%5D=${state}`, true);
+    xhr.open('GET', `http://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070?api-key=${apiKey}&format=${format}&filters%5Bstate%5D=${state}`, true);
 
     xhr.onload = function () {
         if (this.status === 200) {
