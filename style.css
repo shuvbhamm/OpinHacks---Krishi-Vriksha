@@ -7,6 +7,9 @@
     font-family: 'Poppins', sans-serif;
     border: none;
 }
+body  section{
+    overflow: hidden;
+}
 ::-webkit-scrollbar{
     display: none;
 }
@@ -15,13 +18,13 @@ a{
     color: inherit;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Oswald';
+    font-family: 'Oswald' !important;
 }
 p{
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 button{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif !important;
 }
 html{
     font-size: 16px ;
@@ -45,6 +48,7 @@ header{
     z-index: 1000;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 30px;
     background: rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(50px);
@@ -517,7 +521,7 @@ li{
       display: block;
       width: 100%;
       margin-bottom: 40px;
-      text-align: center;
+      text-align: left;
     }
   
     .footer-distributed .footer-center i{
@@ -615,12 +619,15 @@ li{
 
 
 
-/* mobile phone responsiveness */
+/* tab phone responsiveness */
 
 @media (max-width: 769px) {
 
     .heroSection{
         height: 100vh;
+    }
+    .tear-effect{
+        min-width: 700px;
     }
     .services{
         gap: 20px;
@@ -678,5 +685,55 @@ li{
     .commodityPrice{
         min-width: 410px;
     }
+  }
 
+
+  /* mobile responsive */
+
+  @media (max-width: 500px){
+    .LoginBtns{
+        display: none;
+    }
+    .headerlogo img{
+        width: 120px;
+        height: 40px;
+    }
+    html{
+        font-size: .8rem;
+    }
+    h1{
+        font-size: 2.5em !important;
+    }
+
+    .commodityPrice{
+        flex-direction: column;
+        min-width: max-content;
+        align-items: flex-start;
+    }
+    .todaysData .container{
+        min-width: 230px;
+    }
+    .LiveData{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    .About .ContentSection{
+        width: unset;
+        left: 15%;
+        right: 15%;
+    }
+    .OurServices{
+        padding-top: 2rem;
+    }
+    .SelectState{
+        top: 30px;
+    }
+    .formSect form{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .imageSect img{
+        height: 250px;
+        width: 300px;
+    }
   }
