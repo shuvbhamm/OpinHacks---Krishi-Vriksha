@@ -610,3 +610,73 @@ li{
 .skiptranslate iframe{
     visibility: hidden !important;
 }
+
+
+
+
+
+/* mobile phone responsiveness */
+
+@media (max-width: 769px) {
+
+    .heroSection{
+        height: 100vh;
+    }
+    .services{
+        gap: 20px;
+    }
+
+    .About{
+        height: 85vh;
+        justify-content: center;
+        align-items: flex-start;
+
+        .design1{
+            height: 100px;
+        }
+        .ContentSection{
+            transform: translateY(70px);
+            right: unset;
+        }
+    }
+    .About .imageSection img{
+        height: 300px;
+    }
+
+
+    .contactus{
+        flex-direction: column;
+    }
+    .left-polygon{
+        left: 0;
+        top: 50%;
+    }
+    .right-polygon{
+        right: 0;
+        top: 40%;
+    }
+    .marketPrice{
+        flex-direction: column;
+        
+    }
+    .LiveData{
+        padding: 30px;
+    }
+    #low-and-high-commodity{
+        width: unset;
+        margin-top: 80px;
+    }
+    .todaysData{
+        width: unset;
+    }
+    .SelectState{
+        right: unset;
+    }
+    #stateSelect{
+        padding: 0 10px;
+    }
+    .commodityPrice{
+        min-width: 410px;
+    }
+
+  }
